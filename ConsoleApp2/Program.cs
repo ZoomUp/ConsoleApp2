@@ -161,7 +161,7 @@ namespace ConsoleApp2
             int numberDvuhznachnoe = Convert.ToInt32(Console.ReadLine());
 
             int numberOstatok = numberDvuhznachnoe % 10;
-            int nummberDesyatok = numberDvuhznachnoe / 10;
+            int numberDesyatok = numberDvuhznachnoe / 10;
 
             String propis1 = " один";
             String propis2 = " два";
@@ -182,10 +182,124 @@ namespace ConsoleApp2
             String propis80 = "Восемьдесят";
             String propis90 = "Девяносто";
 
-            if (nummberDesyatok == 1)
+
+            if (numberDesyatok == 1)
             {
+                if (numberOstatok == 0)
+                {
+                    Console.WriteLine("Десять");
+                }
+                if (numberOstatok == 1)
+                {
+                    Console.WriteLine("Одиннадцать");
+                }
+                if (numberOstatok == 2)
+                {
+                    Console.WriteLine("Двенадцать");
+                }
+                if (numberOstatok == 3)
+                {
+                    Console.WriteLine("Тринадцать");
+                }
+                if (numberOstatok == 4)
+                {
+                    Console.WriteLine("Четырнадцать");
+                }
+                if (numberOstatok == 5)
+                {
+                    Console.WriteLine("Пятнадцать");
+                }
+                if (numberOstatok == 6)
+                {
+                    Console.WriteLine("Шестнадцать");
+                }
+                if (numberOstatok == 7)
+                {
+                    Console.WriteLine("Семнадцать");
+                }
+                if (numberOstatok == 8)
+                {
+                    Console.WriteLine("Восемнадцать");
+                }
+                if (numberOstatok == 9)
+                {
+                    Console.WriteLine("Девятнадцать");
+                }
+            }
+            else
+            {
+                if (numberDesyatok == 2)
+                {
+                    Console.Write(propis20);
+                }
+                else if (numberDesyatok == 3)
+                {
+                    Console.Write(propis30);
+                }
+                else if (numberDesyatok == 4)
+                {
+                    Console.Write(propis40);
+                }
+                else if (numberDesyatok == 5)
+                {
+                    Console.Write(propis50);
+                }
+                else if (numberDesyatok == 6)
+                {
+                    Console.Write(propis60);
+                }
+                else if (numberDesyatok == 7)
+                {
+                    Console.Write(propis70);
+                }
+                else if (numberDesyatok == 8)
+                {
+                    Console.Write(propis80);
+                }
+                else
+                {
+                    Console.Write(propis90);
+                }
+
+                if (numberOstatok == 1)
+                {
+                    Console.WriteLine(propis1);
+                }
+                else if (numberOstatok == 2)
+                {
+                    Console.WriteLine(propis2);
+                }
+                else if (numberOstatok == 3)
+                {
+                    Console.WriteLine(propis3);
+                }
+                else if (numberOstatok == 4)
+                {
+                    Console.WriteLine(propis4);
+                }
+                else if (numberOstatok == 5)
+                {
+                    Console.WriteLine(propis5);
+                }
+                else if (numberOstatok == 6)
+                {
+                    Console.WriteLine(propis6);
+                }
+                else if (numberOstatok == 7)
+                {
+                    Console.WriteLine(propis7);
+                }
+                else if (numberOstatok == 8)
+                {
+                    Console.WriteLine(propis8);
+                }
+                else if (numberOstatok == 9)
+                {
+                    Console.WriteLine(propis9);
+                }
 
             }
+
 
         }
     }
