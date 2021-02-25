@@ -172,7 +172,6 @@ namespace ConsoleApp2
             String propis7 = " семь";
             String propis8 = " восемь";
             String propis9 = " девять";
-            String propis10 = "Десять";
             String propis20 = "Двадцать";
             String propis30 = "Тридцать";
             String propis40 = "Сорок";
