@@ -157,7 +157,7 @@ namespace ConsoleApp2
 
             // 5. Пользователь вводит двузначное число. Выведите в консоль прописную запись этого числа. Например при вводе “25” в консоль будет выведено “двадцать пять”.
             Console.WriteLine("Задание №5");
-            Console.WriteLine("Введите двухначное число");
+            Console.WriteLine("Введите двухзначное число");
             int numberDvuhznachnoe = Convert.ToInt32(Console.ReadLine());
 
             int numberOstatok = numberDvuhznachnoe % 10;
